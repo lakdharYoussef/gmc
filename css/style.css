@@ -30,7 +30,7 @@ body{
     
 }
 #image{
-    background-image: url(C:/Users/ASUS/Desktop/source/cours.jpg.png);
+    background-image: url("../res/cours.jpg.png");
     text-align: center;
     display: flex;
     box-sizing: border-box;
@@ -65,7 +65,7 @@ input{
     margin: 0;
     padding: 0;
 }
-#video1{s
+#video1{
   margin-left:25% ;
 }
 .link2{
