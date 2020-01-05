@@ -1,0 +1,74 @@
+
+a:link{
+    color: black;
+}
+a:visited{
+color:rgb(109, 111, 112) ;
+}    
+a:hover{
+    color:black;
+
+}
+.img1{
+    width: 100%;
+}
+body{
+    Background-image:
+
+    Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.top{
+    font-size: 70px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 40%;
+    
+    
+}
+#image{
+    background-image: url(C:/Users/ASUS/Desktop/source/cours.jpg.png);
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    height: 450px;
+ }
+.gris{
+    color: grey;
+}
+input{
+    widows: 100px;
+    height:20px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+.header1{
+    display: flex;
+    margin-left: 35px;   
+}
+
+.header1 ul {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#video1{s
+  margin-left:25% ;
+}
+.link2{
+    color: blue;
+    text-align: center;
+}
