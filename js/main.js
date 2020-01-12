@@ -1,0 +1,32 @@
+var target = document.getElementById("TXTArea")
+document.getElementById("gras").addEventListener("click",function(){
+    if(target.style.fontWeight=="bolder"){
+    target.style.fontWeight="normal";
+    }
+    else{
+        target.style.fontWeight="bolder"
+ } 
+ })
+ document.getElementById("ital").addEventListener("click",function(){
+    if(target.style.fontStyle=="italic"){
+    target.style.fontStyle="normal";
+    }
+    else{
+        target.style.fontStyle="italic"
+ } 
+ })
+ document.getElementById("line").addEventListener("click",function(){
+    if(target.style.textDecoration=="underline"){
+    target.style.textDecoration="none";
+    }
+    else{
+        target.style.textDecoration="underline"
+ } 
+ })
+
+ document.getElementById("FS").addEventListener("change",function(){
+     target.style.fontFamily=document.getElementById("FS").value
+ })
+ document.getElementById("font").addEventListener("change",function(){
+    target.style.fontSize=document.getElementById("font").value
+})
